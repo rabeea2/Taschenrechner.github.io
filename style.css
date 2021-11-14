@@ -1,0 +1,52 @@
+
+body {
+    font-family: 'Road Rage', cursive;
+    margin: 0;
+
+}
+
+    td {
+        width: 25%;
+        text-align: center;
+        background-color: rgb(54, 62, 66);
+        font-size: 30px;
+    }
+table {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(61, 63, 61);
+    color: rgb(81, 238, 8);
+    
+}
+
+td:hover {
+    background-color: rgb(53, 52, 52);
+    cursor: pointer;
+}
+
+#result {
+    background-color: rgb(18, 18, 243);
+}
+
+#resultarea {
+    height: 30vh;
+    background-color: rgb(49, 49, 49);
+    color: rgb(81, 238, 8);
+    font-size: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 24px;
+    box-sizing: border-box;
+}
+ 
+#result:hover {
+    background-color: rgb(11, 11, 124);
+
+}
+
+.highlight {
+    background-color: rgb(43, 42, 42)
+    
+}
+
